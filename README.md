@@ -11,7 +11,7 @@ Time spent: **15.5** hours spent in total
     - Vulnerability types: User Enumeration
     - Tested in version: 4.0
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: <iframe src="https://giphy.com/embed/3JXIYARKt5VrHptAK9" width="479" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3JXIYARKt5VrHptAK9">via GIPHY</a></p>
+  - [ ] GIF Walkthrough:  <img src='Enumeration.gif' title='Enumeration' width='' alt='' /> 
   - [ ] Steps to recreate: Go to the WordPress site and attempt to log in as any user with any password. You will be denied access. If you then attempt to enter using admin as username and anything as password, the user is notified that the incorrect password is used for an accpeted user. This allows for a brute force attack to gain entry by allowing an intuder to figure out a list of valid names.
   - [ ] Affected source code:
     - [Link 1](https://www.wpwhitesecurity.com/wordpress-security/wordpress-username-disclosure-vulnerability/)
@@ -20,7 +20,7 @@ Time spent: **15.5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.7.4
-  - [ ] GIF Walkthrough: <iframe src="https://giphy.com/embed/1pAkfGfmZM9YcXT7Hc" width="480" height="373" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1pAkfGfmZM9YcXT7Hc">via GIPHY</a></p>
+  - [ ] GIF Walkthrough: <img src='XSS.gif' title='XSS' width='' alt='' /> 
   - [ ] Steps to recreate: Obtain a png file that is sized greater than allowed to be uploaded on WordPress.
   Rename this file with a suitable XSS attack and uload the file under add new media. If a Wordpress admin then attempts to load this media file it will allow for a cross site scripting attack.
   - [ ] Affected source code:
@@ -30,7 +30,7 @@ Time spent: **15.5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version:4.0
     - Fixed in version:4.6.1 
-  - [ ] GIF Walkthrough: <iframe src="https://giphy.com/embed/3Bktf0ODPM0zaNmAST" width="480" height="415" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3Bktf0ODPM0zaNmAST">via GIPHY</a></p>
+  - [ ] GIF Walkthrough:> <img src='XSS2.gif' title='XSS2' width='' alt='' />
   - [ ] Steps to recreate: As a user go to WordPress site and create a new page with a post as seen in the gif. This will allow the user to possibly obtain privilege escalation when users in higher tiers such as admins view the page and click the link.
   - [ ] Affected source code:
     - [Link 3](https://www.rapid7.com/db/vulnerabilities/wordpress-cve-2016-7168)
