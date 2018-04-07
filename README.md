@@ -31,7 +31,7 @@ Time spent: **15.5** hours spent in total
     - Tested in version:4.0
     - Fixed in version:4.6.1 
   - [ ] GIF Walkthrough: <iframe src="https://giphy.com/embed/3Bktf0ODPM0zaNmAST" width="480" height="415" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3Bktf0ODPM0zaNmAST">via GIPHY</a></p>
-  - [ ] Steps to recreate: As a user go to WordPress site and create a new page with  a post as follows "<a href=" [caption code=">]</a><a title=" onmouseover=alert('Hola') ">link</a>. This will allow the user to possibly obtain privilege escalation when users in higher tiers such as admins view the page and click the link.
+  - [ ] Steps to recreate: As a user go to WordPress site and create a new page with a post as seen in the gif. This will allow the user to possibly obtain privilege escalation when users in higher tiers such as admins view the page and click the link.
   - [ ] Affected source code:
     - [Link 3](https://www.rapid7.com/db/vulnerabilities/wordpress-cve-2016-7168)
 
